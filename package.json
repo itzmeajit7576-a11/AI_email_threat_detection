@@ -1,0 +1,51 @@
+{
+  "name": "ai-email-threat-detection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "db:init": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "lucide-react": "^0.400.0",
+    "recharts": "^2.12.7",
+    "zod": "^3.23.8",
+    "better-sqlite3": "^11.1.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mailparser": "^3.7.1",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "framer-motion": "^11.3.19",
+    "@types/uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/mailparser": "^3.4.4",
+    "@types/multer": "^1.4.11",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "jest-environment-node": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "autoprefixer": "^10.4.19"
+  }
+}
